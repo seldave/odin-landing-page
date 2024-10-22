@@ -124,7 +124,7 @@ li{
 .statements img {
     height:250px;
     width: 250px;
-    border: 2px #3882F6 solid;
+    border: 5px #3882F6 solid;
     border-radius: 15px;
     margin-bottom: 10px;
 }
@@ -136,7 +136,9 @@ li{
     width: 350px;
     text-align: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: lighter;
 }
 
 .quote {
@@ -190,4 +192,17 @@ li{
     border: 2px solid white;
     border-radius: 5px;
     padding: 8px 20px;
+}
+
+.footer {
+    height: 52px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    width: 100%;
 }
